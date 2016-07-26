@@ -740,9 +740,32 @@ Features List
     font-size: 25px;
     line-height: 90px;
 }
+.feature-content-next {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 0;
+    width: 65%;
+}
+.feature-icon-next {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 25px;
+    width: 90px;
+    height: 90px;
+    border: solid 2px #4e9ba3;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+}
 .feature-icon i {
     color: #4e9ba3
 }
+.feature-icon-next i {
+    color: #4e9ba3
+}
+
 
 /* ==========================================================================
 Blockquote
