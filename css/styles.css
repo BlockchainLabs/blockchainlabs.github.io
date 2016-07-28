@@ -481,7 +481,7 @@ Buttons
     color: #fff;
     text-decoration: none;
 }
-.learn-btn, .download-btn {
+.learn-btn{
     display: inline-block;
     padding: 18px 46px;
     border: 2px solid #fff;
