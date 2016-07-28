@@ -476,8 +476,8 @@ Buttons
     color: #4b98a9;
     font-size: 16px;
 }
-.use-btn:hover, .use-btn:focus {
-    background-color: #73d0da;
+.learn-btn:hover, .learn-btn:focus {
+    background-color: #00ccff;
     color: #fff;
     text-decoration: none;
 }
@@ -489,11 +489,11 @@ Buttons
     color: #fff;
     font-size: 16px;
 }
-.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
+/*.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
     border-color: #73d0da;
     color: #73d0da;
     text-decoration: none;
-}
+}*/
 .read-more-btn {
     display: inline-block;
     color: #323a45;
