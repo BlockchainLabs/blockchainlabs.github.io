@@ -1101,3 +1101,15 @@ Waypoints
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
+.delay-105s {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.delay-2s {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.delay-205s {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
