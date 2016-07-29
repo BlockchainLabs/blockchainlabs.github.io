@@ -146,18 +146,18 @@ body {
 #speakers li a:hover {color: rgba(0,0,0, 0.7);}
 
 /* Rows Optimization */
-.row2 {
-	display: none;
+.row2, .row3, .row4, .row5{
+	display: inline-block;
 }
 
-.row1 .col-md-3, .row2 .col-md-3 {
+.row1 .col-md-3, .row2 .col-md-3, .row3 .col-md-3, .row4 .col-md-3, .row5 .col-md-3 {
 	padding-bottom: 40px;
 }
 
 /* Mobile Devices Optimization */
 @media (min-width: 568px) and (max-width: 992px) {
 
-	.row1 .col-md-3, .row2 .col-md-3 {
+	.row1 .col-md-3, .row2 .col-md-3, .row3 .col-md-3, .row4 .col-md-3, .row5 .col-md-3  {
 		display: inline-block;
 		max-width: 50%;
 	}
