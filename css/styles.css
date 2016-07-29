@@ -742,13 +742,13 @@ Features List
 }
 .feature-content-next {
     display: inline-block;
-    margin-top: 30px;
+    margin top: 40px;
     margin-left: 0;
     width: 65%;
 }
 .feature-icon-next {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-right: 25px;
     width: 90px;
     height: 90px;
