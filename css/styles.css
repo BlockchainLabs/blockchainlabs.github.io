@@ -1146,5 +1146,8 @@ Waypoints
 }
 
 @media (min-width: 1200px) {
-
+    #new_video{
+        width:1200px;
+        height:360px;
+    }
 }
