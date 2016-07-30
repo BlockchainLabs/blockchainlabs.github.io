@@ -467,20 +467,6 @@ a:hover, a:focus {
 /* ==========================================================================
 Buttons
 ========================================================================== */
-.use-btn {
-    display: inline-block;
-    margin: 0 10px 10px 0;
-    padding: 20px 50px;
-    border-radius: 3px;
-    background-color: #fff;
-    color: #4b98a9;
-    font-size: 16px;
-}
-.learn-btn:hover, .learn-btn:focus {
-    background-color: #00ccff;
-    color: #fff;
-    text-decoration: none;
-}
 .learn-btn{
     display: inline-block;
     padding: 18px 46px;
@@ -489,27 +475,11 @@ Buttons
     color: #fff;
     font-size: 16px;
 }
-/*.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
+.learn-btn:hover, .learn-btn:focus{
     border-color: #73d0da;
     color: #73d0da;
     text-decoration: none;
-}*/
-.read-more-btn {
-    display: inline-block;
-    color: #323a45;
-    text-transform: uppercase;
-    font-weight: 400;
 }
-.read-more-btn i, .download-btn i {
-    margin-left: 5px
-}
-.showcase .download-btn {
-    margin-top: 50px
-}
-.download .download-btn {
-    margin-top: 25px
-}
-
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -1116,38 +1086,43 @@ Waypoints
     animation-delay: 2.5s;
 }
 
+#text_block{
+    background: #000000;
+    opacity: 0.6
+}
+
 
 @media screen and (min-width: 387px) and (max-width: 543px) { 
     #new_video{
         width:388px;
-        height:360px;
+        height:218px;
     }
 }
 
 @media screen and  (min-width: 544px) and (max-width: 767px) {
     #new_video{
         width:544px;
-        height:360px;
+        height:306px;
     }
 }
 
 @media  screen and (min-width: 768px) and (max-width: 991px) {
     #new_video{
         width:768px;
-        height:360px;
+        height:432px;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     #new_video{
         width:992px;
-        height:360px;
+        height:558px;
     }
 }
 
 @media (min-width: 1200px) {
     #new_video{
         width:1200px;
-        height:360px;
+        height:675px;
     }
 }
