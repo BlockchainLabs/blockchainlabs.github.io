@@ -728,6 +728,9 @@ Features List
     margin-left: 0;
     width: 65%;
 }
+.container_div{
+    padding:10px 0px;
+}
 .feature-icon {
     display: inline-block;
     margin-right: 25px;
@@ -742,13 +745,12 @@ Features List
 }
 .feature-content-next {
     display: inline-block;
-    margin top: 40px;
     margin-left: 0;
     width: 65%;
 }
 .feature-icon-next {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: 25px;
     width: 90px;
     height: 90px;
@@ -1112,4 +1114,37 @@ Waypoints
 .delay-205s {
     -webkit-animation-delay: 2.5s;
     animation-delay: 2.5s;
+}
+
+// Extra small devices (portrait phones, less than 544px)
+@media (max-width: 543px) { 
+    #new_video{
+        width:543px;
+    }
+}
+
+// Small devices (landscape phones, 544px and up)
+@media (min-width: 544px) and (max-width: 767px) {
+    #new_video{
+        width:544px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+    #new_video{
+        width:768px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+    #new_video{
+        width:992px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
 }
