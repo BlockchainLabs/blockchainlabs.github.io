@@ -1116,35 +1116,35 @@ Waypoints
     animation-delay: 2.5s;
 }
 
-// Extra small devices (portrait phones, less than 544px)
-@media (max-width: 543px) { 
+
+@media screen and (min-width: 387px) and (max-width: 543px) { 
     #new_video{
-        width:543px;
+        width:388px;
+        height:360px;
     }
 }
 
-// Small devices (landscape phones, 544px and up)
-@media (min-width: 544px) and (max-width: 767px) {
+@media screen and  (min-width: 544px) and (max-width: 767px) {
     #new_video{
         width:544px;
+        height:360px;
     }
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991px) {
+@media  screen and (min-width: 768px) and (max-width: 991px) {
     #new_video{
         width:768px;
+        height:360px;
     }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     #new_video{
         width:992px;
+        height:360px;
     }
 }
 
-// Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
 }
