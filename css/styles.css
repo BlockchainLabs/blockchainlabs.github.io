@@ -1088,7 +1088,8 @@ Waypoints
 
 #text_block{
     background: #000000;
-    opacity: 0.6
+    opacity: 0.8
+    padding: 20px 10px 10px 20px;
 }
 
 
